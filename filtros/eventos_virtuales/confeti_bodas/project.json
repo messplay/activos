@@ -1,0 +1,31 @@
+{
+  "schema": "1.0.0",
+  "name": "Confeti para Bodas",
+  "description": "Efecto de confeti elegante para celebraciones de bodas virtuales",
+  "version": "1.0.0",
+  "author": "Tu Nombre",
+  "tags": ["boda", "confeti", "celebración", "evento"],
+  "preview": "preview.jpg",
+  "capabilities": ["faceTracking", "handTracking"],
+  "deviceTargets": ["mobile"],
+  "lensStudioVersion": "4.30.0",
+  "mainScript": "Scripts/confeti_controller.js",
+  "dependencies": {
+    "particleSystem": "1.0.0"
+  },
+  "features": [
+    {
+      "name": "Confeti Animado",
+      "description": "Lluvia de confeti con colores pasteles"
+    },
+    {
+      "name": "Activación por Gestos",
+      "description": "Se activa con sonrisa o gesto de mano"
+    },
+    {
+      "name": "Efecto 3D",
+      "description": "Profundidad y perspectiva en el confeti"
+    }
+  ],
+  "permissions": ["camera"]
+}
